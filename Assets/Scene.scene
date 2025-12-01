@@ -297,12 +297,12 @@
   Enabled: true
   ScriptAsset: !<reference> 906601ec-1068-4564-adad-d13de2c553a5
   ScriptInputsDefault:
-    isHost: true
+    {}
   ScriptTypesDefault:
     {}
   ScriptInputs:
     "":
-      isHost: false
+      isHost: true
       hip: !<reference.SceneObject> ba758334-7bde-4560-9c3c-b6173c370f48
       knee: !<reference.SceneObject> bd208aa5-80e3-4af8-9a7e-d951c9b9fae1
       ankle: !<reference.SceneObject> ba4a8aec-0a43-4e00-af5f-14f93b31afa3
@@ -843,12 +843,12 @@
   Enabled: true
   ScriptAsset: !<reference> 996da0bd-4d37-4474-9227-b37069db7cf6
   ScriptInputsDefault:
-    isHost: true
+    {}
   ScriptTypesDefault:
     {}
   ScriptInputs:
     "":
-      isHost: false
+      isHost: true
       stickFigureRoot: !<reference.SceneObject> 162ca8f6-cbe9-429f-a2b2-f6a00584296c
       RepText: !<reference.Text> f9fc0221-716f-485a-97f7-f17f509105b3
       TimerText: !<reference.Text> 64c17c77-97cf-40f9-bf48-10a08925b726

@@ -22,7 +22,7 @@ if (script.isHost) {
     var repCount = 0;
     var totalReps = 5;
 
-    // State tracking and constants (as before)
+    // State tracking and constants 
     var baselineHipY = null;
     var minHipY = null;
     var inSquat = false;
@@ -110,7 +110,7 @@ if (script.isHost) {
     function updateProgressBar() {
         if (!script.progressText) return;
 
-        // Are we finished?
+        // Check if finished
         var complete = (repCount >= totalReps);
 
         if (complete) {
@@ -122,7 +122,7 @@ if (script.isHost) {
                 script.SetCompleteText.enabled = true;
             }
         } else {
-            // Normal case
+
             var filled = Math.floor((repCount / totalReps) * 10);
             var bar = "";
             for (var i = 0; i < 10; i++) {
@@ -131,17 +131,17 @@ if (script.isHost) {
             script.progressText.text = bar + " " + repCount + "/" + totalReps;
             // Show all UI except "Set Complete"
             if (script.progressText) script.progressText.enabled = true;
-            if (script.RepText) script.RepText.enabled = false;  // RepText may be used elsewhere; keep as needed
+            if (script.RepText) script.RepText.enabled = false;  // RepText may be used elsewhere
             if (script.TimerText) script.TimerText.enabled = false;
             if (script.SetCompleteText) script.SetCompleteText.enabled = false;
         }
     }
 
 
-    // --- Initial update: show from start ---
+    //Initial update
     updateProgressBar();
 
-    // ---- MAIN UPDATE LOGIC ----
+    // ---- MAIN LOGIC ----
     function update() {
         if (!jointsAreTracked()) { resetSquatState(); return; }
 
@@ -249,11 +249,11 @@ if (script.isHost) {
         }
     }
 
-    // Call updateProgressBar every frame to keep bar in sync
+    // Call updateProgressBar e
     var updateEvent = script.createEvent("UpdateEvent");
     updateEvent.bind(function() {
-        update(); // Main rep/squat detection logic
-        updateProgressBar(); // Always update bar
+        update(); 
+        updateProgressBar(); 
     });
 
 } else {

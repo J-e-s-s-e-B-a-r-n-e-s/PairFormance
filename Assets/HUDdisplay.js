@@ -48,9 +48,9 @@ if (!script.isHost) {
                             currentRepCount = data.repCount;
                             totalReps = data.totalReps || totalReps;
                             var repsRemaining = totalReps - currentRepCount;
-                            // NEW: Check for completion
+                         
                             if (currentRepCount >= totalReps) {
-                                // Hide everything except SetCompleteText
+                                // Hide everything except Set Complete Text
                                 if (script.RepText) script.RepText.enabled = false;
                                 if (script.TimerText) script.TimerText.enabled = false;
                                 if (script.SetCompleteText) {
