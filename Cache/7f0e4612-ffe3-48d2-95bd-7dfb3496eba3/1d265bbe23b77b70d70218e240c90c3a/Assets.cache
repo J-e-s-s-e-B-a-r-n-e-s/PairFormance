@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    6fc22769-d5a5-4351-bcf3-39831d4c7ddf: 7f0e4612-ffe3-48d2-95bd-7dfb3496eba3/1d265bbe23b77b70d70218e240c90c3a/Data/Good Squat .mp3
+  Assets:
+    - !<FileAudioTrack/6fc22769-d5a5-4351-bcf3-39831d4c7ddf>
+      PackagePath: ""
+  SourceHash: 1d265bbe23b77b70d70218e240c90c3a
+  FileHash: 4f9a763fc61a4ccfd6782883b00caf44
+  NativePackageItems:
+    []

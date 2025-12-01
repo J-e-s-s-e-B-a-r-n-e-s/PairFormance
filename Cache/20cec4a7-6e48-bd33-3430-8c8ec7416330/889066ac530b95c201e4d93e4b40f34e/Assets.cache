@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    e6daa7a5-93e3-48bc-8289-bcb98742ea44: 20cec4a7-6e48-bd33-3430-8c8ec7416330/889066ac530b95c201e4d93e4b40f34e/Data/Skin.mesh
+  Assets:
+    - !<FileMesh/e6daa7a5-93e3-48bc-8289-bcb98742ea44>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 4404
+        Vertices: 3059
+        Blendshapes:
+          []
+        Joints: 20
+        AabbSize: {x: 16638.470703, y: 2040.698486, z: 19404.392578}
+  SourceHash: 889066ac530b95c201e4d93e4b40f34e
+  FileHash: cfe94bd7fae2acad5f4fa3ecf26e431c
+  NativePackageItems:
+    []

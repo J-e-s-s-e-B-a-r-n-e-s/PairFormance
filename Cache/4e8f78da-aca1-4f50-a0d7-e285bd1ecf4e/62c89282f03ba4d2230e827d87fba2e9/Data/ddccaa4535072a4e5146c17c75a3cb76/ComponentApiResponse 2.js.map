@@ -1,0 +1,1 @@
+{"version":3,"file":"ComponentApiResponse 2.js","sourceRoot":"./","sources":["Packages/Input Action.lsc/InputAction/InputActionTypes/Discrete/Responses/ComponentApiResponse 2.ts"],"names":[],"mappings":";;;AACA,6EAAsG;AAKtG,MAAa,4BAA6B,SAAQ,mDAA+B;IAC7E,MAAM,CAAC,gBAAgB,CAAC,MAAkC,EAAE,OAAyB;QACjF,OAAO,mDAAwB,CAAC,gBAAgB,CAAQ,MAAM,EAAE,OAAO,CAAC,CAAC;IAC7E,CAAC;CACJ;AAJD,oEAIC"}

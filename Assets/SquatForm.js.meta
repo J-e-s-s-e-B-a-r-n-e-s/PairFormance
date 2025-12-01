@@ -1,0 +1,66 @@
+- !<AssetImportMetadata/41cb1f1e-1fec-417a-8ed9-e3a6c32dfc9b>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 906601ec-1068-4564-adad-d13de2c553a5
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 906601ec-1068-4564-adad-d13de2c553a5
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> a8370930-b587-433f-981c-d9bac5205dbf
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/a8370930-b587-433f-981c-d9bac5205dbf>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 1c298fff-22d5-491e-b2ca-db27d1373787
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    RepText: false
+    SetCompleteText: false
+    TimerText: false
+    ankle: false
+    apiEndpoint: false
+    goodCueAudio: false
+    hip: false
+    isHost: false
+    knee: false
+    lowCueAudio: false
+    progressText: false
+    serviceModule: false
+    stickFigureRoot: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - isHost: false
+      hip: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      knee: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      ankle: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      goodCueAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      lowCueAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      stickFigureRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      RepText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      TimerText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      progressText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      serviceModule: !<reference.InternetModule> 00000000-0000-0000-0000-000000000000
+      apiEndpoint: ""
+      SetCompleteText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
