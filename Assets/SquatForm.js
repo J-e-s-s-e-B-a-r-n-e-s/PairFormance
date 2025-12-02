@@ -9,10 +9,10 @@
 // @input SceneObject stickFigureRoot
 // @input Component.Text RepText
 // @input Component.Text TimerText
-// @input Component.Text progressText // <-- Assign your Text component here
+// @input Component.Text progressText 
 // @input Asset.InternetModule serviceModule
 // @input string apiEndpoint
-// @input Component.Text SetCompleteText // <-- Assign your Text component here
+// @input Component.Text SetCompleteText 
 
 if (script.isHost) {
     if (script.stickFigureRoot) script.stickFigureRoot.enabled = true;
